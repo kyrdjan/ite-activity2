@@ -305,7 +305,7 @@ const moonLight = new THREE.DirectionalLight('#b9d5ff', 0.12)
 const spotlight = new THREE.SpotLight(0x00ffcc, 1);  // Light color and intensity
 spotlight.position.set(0, 4.5, 0);
 spotlight.angle = Math.PI / 6;  // Cone angle
-spotlight.penumbra = 0.3;
+spotlight.penumbra = 0.6;
 spotlight.decay = 1;  // Decay factor
 spotlight.castShadow = true;  // Enable shadow casting
 
